@@ -1,0 +1,51 @@
+{
+  "slug": "sk-medvid",
+  "nazev": "JUDr. Michael Medviď – advokát",
+  "url": "https://webhunter-navrhy.github.io/sk-medvid/",
+  "base": "/sk-medvid/",
+  "lang": "sk",
+  "popis": "JUDr. Michael Medviď, advokát a správca v Košiciach. Právne služby vo všetkých oblastiach práva na celom území Slovenska.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "budovy.jpg",
+  "logo": "logo.png",
+  "theme_color": "#faf7f1",
+  "typ": "LegalService",
+  "ico": "42 245 672",
+  "kontakt": {
+    "email": "medvid@medvid.sk",
+    "telefon": "+421 918 530 350",
+    "adresa": {
+      "ulice": "Jihlavská 1359/22",
+      "psc": "040 11",
+      "mesto": "Košice – Západ",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu medvid.sk"
+  },
+  "nav": [
+    {
+      "text": "O mne",
+      "href": "#o-mne"
+    },
+    {
+      "text": "Právne služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Prístup",
+      "href": "#pristup"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

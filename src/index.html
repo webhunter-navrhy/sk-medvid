@@ -1,0 +1,67 @@
+{% extends "_base.html" %}
+{% set titulek = 'JUDr. Michael Medviď – advokát a správca, Košice' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok">Advokát a správca · Košice</p>
+      <h1>Právne služby v dobrých rukách</h1>
+      <p class="lead">Vaše záujmy sú stredobodom mojej pozornosti. Právne výzvy sú súčasťou života. Ak sa ocitnete v situácii, v ktorej si sami neviete poradiť, pokojne sa na mňa obráťte.</p>
+      <p><a class="tlacitko" href="#kontakt">Napísať e-mail</a></p>
+    </div>
+    <div class="hero-foto">
+      {{ img('medvid.png', 'JUDr. Michael Medviď, advokát', sizes='(min-width: 60rem) 28rem, 80vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="o-mne">
+  <div class="wrap dva">
+    <h2>O mne</h2>
+    <div class="text">
+      <p>Podnikám pod obchodným menom JUDr. Michael Medviď – advokát a som zapísaný v Zozname advokátov Slovenskej advokátskej komory pod číslom 6470 a v Zozname správcov Ministerstva spravodlivosti SR pod značkou S1566. Právne služby poskytujem vo všetkých právnych oblastiach.</p>
+      <p>Právnické vzdelanie som získal na Právnickej fakulte Univerzity Pavla Jozefa Šafárika v Košiciach v akademických rokoch 2004/2005 až 2008/2009. Správcovskú skúšku som vykonal v roku 2011. Advokátsku skúšku som vykonal v roku 2013. Právnu prax som získaval už od roku 2000 ako príslušník policajného zboru SR.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce pas" id="sluzby">
+  <div class="wrap dva">
+    <h2>Právne služby</h2>
+    <ol class="rejstrik" role="list">
+      {% for s in data.sluzby %}<li>{{ s.text }}</li>{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sekce" id="pristup">
+  <div class="wrap">
+    <h2>Ako pracujem</h2>
+    <div class="styri">
+      <div><h3>Cena</h3><p>Advokátsku činnosť vykonávam bez časového obmedzenia podľa časových potrieb za nižšie optimalizované ceny.</p></div>
+      <div><h3>Proces</h3><p>Advokáciu vykonávam osobne a ťažím z vlastnej právnej praxe, štúdia odbornej literatúry i judikatúry.</p></div>
+      <div><h3>Výsledok</h3><p>Zameriavam sa na výsledok poskytnutej právnej služby. Samozrejmosťou je dodržanie stanovených termínov.</p></div>
+      <div><h3>Mobilita</h3><p>Pôsobím na celom území Slovenska, najmä v Košiciach a Bratislave. Investujem do informačných technológií uľahčujúcich produktivitu.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Kontakt</h2>
+      <p class="lead">Napíšte mi a ozvem sa Vám.</p>
+      <dl class="udaje">
+        <div><dt>Obchodné meno</dt><dd>JUDr. Michael Medviď – advokát</dd></div>
+        <div><dt>Sídlo</dt><dd>Jihlavská 1359/22, 040 11 Košice – mestská časť Západ</dd></div>
+        <div><dt>E-mail</dt><dd><a href="mailto:medvid@medvid.sk">medvid@medvid.sk</a></dd></div>
+        <div><dt>Telefón</dt><dd><a href="tel:+421918530350">+421 918 530 350</a></dd></div>
+        <div><dt>IČO / DIČ</dt><dd>42 245 672 / 1082 145 724</dd></div>
+        <div><dt>Úradné hodiny</dt><dd>nonstop</dd></div>
+      </dl>
+    </div>
+    <div class="forma">{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}

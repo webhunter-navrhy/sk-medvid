@@ -1,0 +1,367 @@
+{
+ "slug": "sk-medvid",
+ "zdroj_url": "https://www.medvid.sk",
+ "firma": "JUDr. Michael Medviď – advokát",
+ "obor": [
+  "právo a poradenství",
+  "e-shop / obchod"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "medvid@medvid.sk"
+  ],
+  "telefony": [
+   "+421 918 530 350",
+   "082 145 724"
+  ],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.svg",
+  "zdroj": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20109'%3E%3C/svg%3E",
+  "rozmery": null
+ },
+ "barvy": {
+  "css_promenne": {
+   "primary_color": "#bf811f",
+   "primary_color-85a": "rgba(191, 129, 31, .85)",
+   "primary_color-7a": "rgba(191, 129, 31, .7)",
+   "primary_color-5a": "rgba(191, 129, 31, .5)",
+   "primary_color-35a": "rgba(191, 129, 31, .35)",
+   "primary_color-2a": "rgba(191, 129, 31, .2)"
+  },
+  "z_css": [
+   "#bf811f",
+   "#a0ce4e",
+   "#9d1111",
+   "#65bc7b",
+   "#fd9c9c",
+   "#54770f"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#bf811f",
+   "#a0ce4e"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.png",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/judr-michael-medvid.png",
+   "sirka": 600,
+   "vyska": 865,
+   "alt": "JUDr. Michael Medviď"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/o-mne-mobile.jpg",
+   "sirka": 1000,
+   "vyska": 1600,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/procesy-a-cena.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Procesy a cena"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/vysledok-a-kvalita.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Výsledok a kvalita"
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/odborny-pristup.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Odborný prístup"
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/mobilita.jpg",
+   "sirka": 400,
+   "vyska": 400,
+   "alt": "Mobilita"
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/10/main-banner-background.jpg",
+   "sirka": 2000,
+   "vyska": 1100,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://medvid.sk/wp-content/uploads/2018/09/o-mne-background.jpg",
+   "sirka": 2000,
+   "vyska": 1100,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Právne služby v dobrých rukách",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Vaše záujmy sú stredobodom mojej pozornosti",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "O mne",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "O mne",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Cena",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Proces",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Výsledok",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Mobilita",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Charakteristika",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Charakteristika",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Právne služby",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Právne služby",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Právne služby",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Kontakt",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Fakturačné údaje",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Kontakt",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Kontakt",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Fakturačné údaje",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Právne výzvy sú súčasťou života. Ak sa ocitnete v situácii, v ktorej si sami neviete poradiť, pokojne sa na mňa obráťte.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Podnikám pod obchodným menom JUDr. Michael Medviď – advokát a  som zapísaný v Zozname advokátov Slovenskej advokátskej komory pod číslom 6470 a v Zozname správcov Ministerstva spravodlivosti SR pod značkou S1566.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Právnické vzdelanie som získal na Právnickej fakulte Univerzity Pavla Jozefa Šafárika v Košiciach v akademických rokoch 2004/2005 až 2008/2009. Správcovskú skúšku som vykonal v roku 2011. Advokátsku skúšku som vykonal v roku 2013. V minulosti som pôsobil aj ako ako príslušník policajného zboru SR.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vaše záujmy sú stredobodom mojej pozornosti. Právne výzvy sú súčasťou života. Ak sa ocitnete v situácii, v ktorej si sami neviete poradiť, pokojne sa na mňa obráťte.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Podnikám pod obchodným menom JUDr. Michael Medviď – advokát a som zapísaný v Zozname advokátov Slovenskej advokátskej komory pod číslom 6470 a v Zozname správcov Ministerstva spravodlivosti SR pod značkou S1566. Právne služby poskytujem vo všetkých právnych oblastiach.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Právnické vzdelanie som získal na Právnickej fakulte Univerzity Pavla Jozefa Šafárika v Košiciach v akademických rokoch 2004/2005 až 2008/2009. Správcovskú skúšku som vykonal v roku 2011. Advokátsku skúšku som vykonal v roku 2013. Právnu prax som získaval už od roku 2000 ako príslušník policajného zboru SR.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokátsku činnosť vykonávam bez časového obmedzenia podľa časových potrieb za nižšie optimalizované ceny.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokáciu vykonávam osobne a ťažím najmä z vlastnej praxe, štúdia odbornej literatúry či právnych portálov.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zameriavam sa na výsledok poskytnutej právnej služby v dohodnutom termíne.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pôsobím na celom území Slovenska najmä v Košiciach a Bratislave. Investujem do informačných technológií uľahčujúcich produktivitu.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokátsku činnosť vykonávam bez časového obmedzenia podľa časových potrieb za nižšie optimalizované ceny.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Zameriavam sa na výsledok poskytnutej právnej služby. Samozrejmosťou je dodržanie stanovených termínov.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Advokáciu vykonávam osobne a ťažím z vlastnej právnej praxe, štúdia odbornej literatúry i judikatúry.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pôsobím na celom území Slovenska. Investujem do informačných technológií uľahčujúcich produktivitu.",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "zastupovanie klientov v konaniach pred súdmi, notármi, exekútormi a inými orgánmi verejnej moci",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "vymáhanie pohľadávok, priama komunikácia s dlžníkom",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "autorizácia zmlúv o prevode nehnuteľností, elektronické návrhy na vklad do katastra",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "zakladanie obchodných spoločností, zápisy zmien zapísaných údajov  obchodnom registri, likvidácie obchodných spoločností",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v občianskych, obchodných, rodinných a pracovných veciach",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v oblasti zmluvného práva, príprava alebo kontrola zmlúv",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "návrhy na zápis do registra partnerov verejného sektora, registra hospodárskych subjektov",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v oblasti pobytov cudzincov na území Slovenskej republiky, zastupovanie v konaniach",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "zastupovanie klientov v konaniach pred súdmi, notármi, exekútormi a inými orgánmi verejnej moci",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "vymáhanie pohľadávok, priama komunikácia s dlžníkom",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "autorizácia zmlúv o prevode nehnuteľností, elektronické návrhy na vklad do katastra",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "zakladanie obchodných spoločností, zápisy zmien zapísaných údajov obchodnom registri, likvidácie obchodných spoločností",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v občianskych, obchodných, rodinných a pracovných veciach",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v oblasti zmluvného práva, príprava alebo kontrola zmlúv",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "návrhy na zápis do registra partnerov verejného sektora, registra hospodárskych subjektov",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "právne poradenstvo v oblasti pobytov cudzincov na území Slovenskej republiky, zastupovanie v konaniach",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Obchodné meno: JUDr. Michael Medviď – advokát Adresa sídla: Jihlavská 1359/22, 040 11 Košice – mestská časť Západ IČO: 42 245 672 DIČ: 1082 145 724 Úradné hodiny: nonstop",
+   "zdroj": "https://medvid.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Peňažný ústav: Tatra banka, a.s. IBAN: SK70 1100 0000 0029 4713 2590",
+   "zdroj": "https://medvid.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Právne služby poskytujem vo všetkých právnych oblastiach. Spokojnosť klientov s poskytnutím právnych služieb je mojou záľubou."
+}

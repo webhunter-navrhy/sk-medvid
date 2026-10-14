@@ -1,0 +1,80 @@
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/publicsans-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/publicsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Young Serif';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/youngserif-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF;}
+@font-face{font-family:'Young Serif';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/youngserif-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow-x:clip;scroll-padding-top:5rem;scroll-behavior:smooth}
+body{margin:0;overflow-x:clip}
+img,picture,svg{display:block;max-width:100%;height:auto}
+input,button,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+h1,h2,h3{margin:0;text-wrap:balance;font-weight:400}
+p{margin:0;text-wrap:pretty}
+ul[role=list],ol[role=list]{list-style:none;margin:0;padding:0}
+:root{--bg:#faf7f1;--ink:#14213d;--muted:#4f5668;--gold:#bf811f;--gold-text:#8a5a0c;--line:#d9d2c3;--pas:#f0eadc;
+--head:'Young Serif',Georgia,serif;--body:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:clamp(1rem,.96rem + .2vw,1.125rem);line-height:1.65}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:20}
+.skip:focus{left:0}
+.wrap{width:min(100% - 2.5rem,72rem);margin-inline:auto}
+.hlavicka{position:sticky;top:0;z-index:10;background:rgba(250,247,241,.96);border-bottom:1px solid var(--line)}
+.hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.25rem;padding-block:.4rem}
+.logo{display:block;flex:none}
+.logo img{height:2.75rem;width:auto}
+.hlavicka nav{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;justify-content:flex-end}
+.hlavicka nav a{text-decoration:none;font-size:.95rem;font-weight:500;padding:.5rem 0;min-height:2.5rem;display:inline-flex;align-items:center;border-bottom:2px solid transparent}
+.hlavicka nav a:hover{border-color:var(--gold)}
+.hero{background:var(--ink);color:#f6f1e6;overflow:clip}
+.hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:2rem;align-items:end;min-height:min(40rem,80vh)}
+.hero-text{padding-block:clamp(3rem,8vw,6rem);align-self:center}
+.stitok{color:#e0a944;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.85rem;margin-bottom:1.25rem}
+h1{font-family:var(--head);font-size:clamp(2.3rem,1.5rem + 3.6vw,4.4rem);line-height:1.08;margin-bottom:1.5rem}
+.lead{font-size:clamp(1.1rem,1rem + .4vw,1.3rem);max-width:36rem;margin-bottom:2rem}
+.tlacitko{display:inline-block;background:var(--gold);color:#14213d;font-weight:600;padding:.85rem 1.6rem;text-decoration:none;min-height:2.75rem}
+.tlacitko:hover{background:#d49a35}
+.hero-foto{align-self:end;justify-self:center;width:min(100%,28rem);border-bottom:0}
+.hero-foto img{width:100%}
+.sekce{padding-block:clamp(4rem,9vw,8rem)}
+.pas{background:var(--pas)}
+h2{font-family:var(--head);font-size:clamp(1.8rem,1.3rem + 2vw,3rem);line-height:1.15}
+h2::after{content:"";display:block;width:3rem;height:3px;background:var(--gold);margin-top:1rem}
+.dva{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.8fr);gap:clamp(1.5rem,5vw,5rem);align-items:start}
+.text p+p{margin-top:1.25rem}
+.rejstrik{counter-reset:r;border-top:1px solid var(--ink)}
+.rejstrik li{counter-increment:r;display:grid;grid-template-columns:2.5rem 1fr;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+.rejstrik li::before{content:counter(r,decimal-leading-zero);color:var(--gold-text);font-weight:600;font-variant-numeric:tabular-nums}
+.styri{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem;margin-top:3rem}
+.styri>div{border-top:3px solid var(--gold);padding-top:1.25rem}
+.styri h3{font-family:var(--head);font-size:1.35rem;margin-bottom:.6rem}
+.styri p{color:var(--muted)}
+.tmava{background:var(--ink);color:#f6f1e6}
+.tmava h2::after{background:var(--gold)}
+.kontakt-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2rem,5vw,5rem)}
+.kontakt-grid .lead{margin-top:1.5rem;margin-bottom:1.5rem}
+.udaje{margin:0}
+.udaje div{padding:.7rem 0;border-bottom:1px solid rgba(246,241,230,.2)}
+.udaje dt{font-size:.8rem;text-transform:uppercase;letter-spacing:.07em;color:#e0a944}
+.udaje dd{margin:0}
+.formular{display:grid;gap:1rem}
+.formular label{display:grid;gap:.35rem;font-size:.9rem;font-weight:500}
+.formular input,.formular textarea{background:#fff;color:var(--ink);border:1px solid var(--line);padding:.7rem .8rem;border-radius:0;min-height:2.75rem}
+.formular button{background:var(--gold);color:#14213d;border:0;font-weight:600;padding:.85rem 1.6rem;justify-self:start;min-height:2.75rem}
+.formular-stav{font-size:.9rem;min-height:1.4em}
+.past{position:absolute;left:-999px}
+.paticka{background:#0e1730;color:#cfd3dc;padding-block:1.75rem;font-size:.9rem}
+.paticka .wrap{display:flex;flex-wrap:wrap;gap:.5rem 2rem}
+@media (max-width:60rem){
+ .hero-grid,.dva,.kontakt-grid{grid-template-columns:minmax(0,1fr)}
+ .hero-grid{min-height:0}
+ .hero-text{padding-bottom:1rem}
+ .hero-foto{width:min(70%,20rem)}
+ .styri{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:40rem){
+ .hlavicka .wrap{flex-wrap:wrap}
+ .hlavicka nav{gap:0 1rem;justify-content:flex-start;width:100%}
+ .styri{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
